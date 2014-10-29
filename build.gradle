@@ -9,9 +9,12 @@ task wrapper(type: Wrapper) {
 }
 
 dependencies {
+    compile "org.projectlombok:lombok:1.14.8"
+    compile 'org.apache.poi:poi:3.11-beta2'
     testCompile 'junit:junit:4.11'
     testCompile 'org.mockito:mockito-all:1.9.5'
     testCompile 'org.assertj:assertj-core:1.2.0'
+
 }
 
 sourceSets {
